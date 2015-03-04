@@ -4,14 +4,25 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.neurosky.thinkgear.TGDevice;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.util.Log;
 
 
 public class MainActivity extends ActionBarActivity {
+    TGDevice tgDevice;
+    BluetoothAdapter btAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        btAdapter = BluetoothAdapter.getDefaultAdapter();
+        if(btAdapter != null) {
+            tgDevice = new TGDevice(btAdapter, handler);
+        }
     }
 
 
