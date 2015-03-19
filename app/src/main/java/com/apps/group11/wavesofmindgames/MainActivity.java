@@ -16,6 +16,7 @@ import android.bluetooth.BluetoothDevice;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -43,7 +44,30 @@ public class MainActivity extends ActionBarActivity {
                 }
         );
     }
+    public void showTexts()
+    {
+        TextView signal = (TextView)findViewById(R.id.textSignal);
+        TextView attention = (TextView)findViewById(R.id.textAttention);
+        TextView delta = (TextView)findViewById(R.id.textDelta);
+        TextView theta = (TextView)findViewById(R.id.textTheta);
+        TextView lowAlpha = (TextView)findViewById(R.id.textLowA);
+        TextView highAlpha = (TextView)findViewById(R.id.textHighA);
+        TextView lowBeta = (TextView)findViewById(R.id.textLowB);
+        TextView highBeta = (TextView)findViewById(R.id.textHighB);
+        TextView lowGamma = (TextView)findViewById(R.id.textLowG);
+        TextView highGamma = (TextView)findViewById(R.id.textHighG);
 
+        signal.setVisibility(View.VISIBLE);
+        attention.setVisibility(View.VISIBLE);
+        delta.setVisibility(View.VISIBLE);
+        theta.setVisibility(View.VISIBLE);
+        lowAlpha.setVisibility(View.VISIBLE);
+        highAlpha.setVisibility(View.VISIBLE);
+        lowBeta.setVisibility(View.VISIBLE);
+        highBeta.setVisibility(View.VISIBLE);
+        lowGamma.setVisibility(View.VISIBLE);
+        highGamma.setVisibility(View.VISIBLE);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -81,9 +105,7 @@ public class MainActivity extends ActionBarActivity {
                             break;
                         case TGDevice.STATE_CONNECTED:
                             tgDevice.start();
-                            Intent intent = new Intent(MainActivity.this, DataViewer.class);
-                            //intent.putExtra("device",  tgDevice);
-                            startActivity(intent);
+                            showTexts();
                             break;
                         case TGDevice.STATE_DISCONNECTED:
 
