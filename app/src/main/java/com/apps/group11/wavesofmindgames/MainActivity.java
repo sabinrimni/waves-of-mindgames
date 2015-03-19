@@ -82,7 +82,7 @@ public class MainActivity extends ActionBarActivity {
                         case TGDevice.STATE_CONNECTED:
                             tgDevice.start();
                             Intent intent = new Intent(MainActivity.this, DataViewer.class);
-                            intent.putExtra("device",  tgDevice);
+                            //intent.putExtra("device",  tgDevice);
                             startActivity(intent);
                             break;
                         case TGDevice.STATE_DISCONNECTED:
