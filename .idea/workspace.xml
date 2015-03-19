@@ -18,7 +18,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4a2583ca-5b0c-4f19-8f33-755971b68953" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/apps/group11/wavesofmindgames/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/group11/wavesofmindgames/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WavesOfMindGames.iws" />
@@ -1524,6 +1523,10 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="e7e95f3f" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
+    <property name="options.lastSelected" value="vcs.Subversion" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -1692,7 +1695,11 @@
       <created>1426766066751</created>
       <updated>1426766066752</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OK">
+      <created>1426766169226</created>
+      <updated>1426766169226</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
