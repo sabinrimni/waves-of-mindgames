@@ -2,6 +2,7 @@ package com.apps.group11.wavesofmindgames;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.ActionBarActivity;
@@ -68,18 +69,24 @@ public class MainActivity extends ActionBarActivity {
     private final Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
+            ProgressDialog pd = new ProgressDialog(MainActivity.this);
             switch (msg.what) {
                 case TGDevice.MSG_STATE_CHANGE:
                     switch (msg.arg1) {
                         case TGDevice.STATE_IDLE:
+
                             break;
                         case TGDevice.STATE_CONNECTING:
-                            ProgressDialog pd = ProgressDialog.show(MainActivity.this, "Connectiong", "Please Wait...", true);
+                            //pd.show(MainActivity.this, "Connecting", "Please Wait...", true, true);
                             break;
                         case TGDevice.STATE_CONNECTED:
                             tgDevice.start();
+                            Intent intent = new Intent(MainActivity.this, DataViewer.class);
+                            intent.putExtra("device",  tgDevice);
+                            startActivity(intent);
                             break;
                         case TGDevice.STATE_DISCONNECTED:
+
                             break;
                         case TGDevice.STATE_NOT_FOUND:
                         case TGDevice.STATE_NOT_PAIRED:

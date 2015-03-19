@@ -2,4 +2,7 @@
     <string name="app_name">Waves of Mind Games</string>
     <string name="action_settings">Settings</string>
     <string name="connect">Connect</string>
+    <string name="title_activity_data_viewer">DataViewer</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>
