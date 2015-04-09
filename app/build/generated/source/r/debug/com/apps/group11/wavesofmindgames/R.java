@@ -1318,7 +1318,7 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090016;
         public static final int beginning=0x7f090013;
-        public static final int button=0x7f090049;
+        public static final int button=0x7f09003f;
         public static final int checkbox=0x7f090029;
         public static final int collapseActionView=0x7f090017;
         public static final int decor_content_parent=0x7f09002f;
@@ -1361,16 +1361,16 @@ containing a value of this type.
         public static final int split_action_bar=0x7f090007;
         public static final int submit_area=0x7f09003c;
         public static final int tabMode=0x7f09000b;
-        public static final int textAttention=0x7f090040;
-        public static final int textDelta=0x7f090041;
-        public static final int textHighA=0x7f090044;
-        public static final int textHighB=0x7f090046;
-        public static final int textHighG=0x7f090048;
-        public static final int textLowA=0x7f090043;
-        public static final int textLowB=0x7f090045;
-        public static final int textLowG=0x7f090047;
-        public static final int textSignal=0x7f09003f;
-        public static final int textTheta=0x7f090042;
+        public static final int textAttention=0x7f090041;
+        public static final int textDelta=0x7f090042;
+        public static final int textHighA=0x7f090045;
+        public static final int textHighB=0x7f090047;
+        public static final int textHighG=0x7f090049;
+        public static final int textLowA=0x7f090044;
+        public static final int textLowB=0x7f090046;
+        public static final int textLowG=0x7f090048;
+        public static final int textSignal=0x7f090040;
+        public static final int textTheta=0x7f090043;
         public static final int title=0x7f090027;
         public static final int up=0x7f090008;
         public static final int useLogo=0x7f090012;
@@ -1404,9 +1404,8 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040014;
         public static final int abc_search_view=0x7f040015;
         public static final int abc_simple_dropdown_hint=0x7f040016;
-        public static final int activity_data_viewer=0x7f040017;
-        public static final int activity_main=0x7f040018;
-        public static final int support_simple_spinner_dropdown_item=0x7f040019;
+        public static final int activity_main=0x7f040017;
+        public static final int support_simple_spinner_dropdown_item=0x7f040018;
     }
     public static final class menu {
         public static final int menu_data_viewer=0x7f0d0000;

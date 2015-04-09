@@ -4,5 +4,7 @@
     <string name="connect">Connect</string>
     <string name="title_activity_data_viewer">DataViewer</string>
 
+    <string name="Practice">PracticeGame</string>
+
     <string name="hello_world">Hello world!</string>
 </resources>

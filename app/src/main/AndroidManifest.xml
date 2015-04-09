@@ -22,6 +22,10 @@
             android:name=".DataViewer"
             android:label="@string/title_activity_data_viewer" >
         </activity>
+        <activity
+            android:name="PracticeGame"
+            android:label="@string/Practice">
+        </activity>
     </application>
 
 </manifest>

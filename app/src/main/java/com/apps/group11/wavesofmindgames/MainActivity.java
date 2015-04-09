@@ -22,6 +22,8 @@ import android.widget.TextView;
 public class MainActivity extends ActionBarActivity {
     TGDevice tgDevice;
     BluetoothAdapter btAdapter;
+    TGEegPower tgePower;
+    int deltaValue;
 
 
     @Override
@@ -44,6 +46,7 @@ public class MainActivity extends ActionBarActivity {
                 }
         );
     }
+
     public void showTexts()
     {
         TextView signal = (TextView)findViewById(R.id.textSignal);
@@ -67,6 +70,15 @@ public class MainActivity extends ActionBarActivity {
         highBeta.setVisibility(View.VISIBLE);
         lowGamma.setVisibility(View.VISIBLE);
         highGamma.setVisibility(View.VISIBLE);
+    }
+
+    public void getAttention(Message msg)
+    {
+        TGEegPower ep = (TGEegPower)msg.obj;
+
+        int attention;
+
+        attention = ep.delta;
     }
 
     @Override
