@@ -26,6 +26,10 @@
             android:name=".PracticeGameActivity"
             android:label="@string/title_activity_practice_game" >
         </activity>
+        <activity
+            android:name=".BallGame"
+            android:label="@string/title_activity_ball_game" >
+        </activity>
     </application>
 
 </manifest>

@@ -4,4 +4,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/C:/Users/Vigidis/Dropbox/Workspace/Android%20Studio%20Workspace/WavesOfMindGames/app/src/main/res/menu/menu_main.xml -->
+<!-- From: file:/C:/Users/Andrei/Desktop/School/Android%20dev/Project/waves-of-mindgames/app/src/main/res/menu/menu_main.xml -->

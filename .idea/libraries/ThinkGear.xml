@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="ThinkGear">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/ThinkGear.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/lib/ThinkGear.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -26,4 +26,4 @@
     <item android:state_focused="true"                                                             android:drawable="@drawable/abc_list_focused_holo" />
 
 </selector>
-<!-- From: file:/C:/Users/Vigidis/Dropbox/Workspace/Android%20Studio%20Workspace/WavesOfMindGames/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_light.xml -->
+<!-- From: file:/C:/Users/Andrei/Desktop/School/Android%20dev/Project/waves-of-mindgames/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_light.xml -->

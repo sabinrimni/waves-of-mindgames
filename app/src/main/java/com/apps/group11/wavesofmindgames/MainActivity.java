@@ -93,6 +93,7 @@ public class MainActivity extends ActionBarActivity {
         int attention;
 
         attention = ep.delta;
+
     }
 
     @Override

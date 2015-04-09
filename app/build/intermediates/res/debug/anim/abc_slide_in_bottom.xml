@@ -17,4 +17,4 @@
            android:interpolator="@android:anim/decelerate_interpolator"
            android:fromYDelta="50%p" android:toYDelta="0"
            android:duration="@android:integer/config_mediumAnimTime"/>
-<!-- From: file:/C:/Users/Vigidis/Dropbox/Workspace/Android%20Studio%20Workspace/WavesOfMindGames/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_in_bottom.xml -->
+<!-- From: file:/C:/Users/Andrei/Desktop/School/Android%20dev/Project/waves-of-mindgames/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_in_bottom.xml -->

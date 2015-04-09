@@ -1314,7 +1314,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f09004a;
+        public static final int action_settings=0x7f09004d;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090016;
         public static final int beginning=0x7f090013;
@@ -1341,6 +1341,7 @@ containing a value of this type.
         public static final int never=0x7f090019;
         public static final int none=0x7f09000e;
         public static final int normal=0x7f09000a;
+        public static final int practice1=0x7f09004a;
         public static final int progress_circular=0x7f090005;
         public static final int progress_horizontal=0x7f090006;
         public static final int radio=0x7f09002b;
@@ -1371,6 +1372,8 @@ containing a value of this type.
         public static final int textLowG=0x7f090048;
         public static final int textSignal=0x7f090040;
         public static final int textTheta=0x7f090043;
+        public static final int textView=0x7f09004b;
+        public static final int textView1=0x7f09004c;
         public static final int title=0x7f090027;
         public static final int up=0x7f090008;
         public static final int useLogo=0x7f090012;
@@ -1405,37 +1408,41 @@ containing a value of this type.
         public static final int abc_search_view=0x7f040015;
         public static final int abc_simple_dropdown_hint=0x7f040016;
         public static final int activity_main=0x7f040017;
-        public static final int support_simple_spinner_dropdown_item=0x7f040018;
+        public static final int activity_practice_game=0x7f040018;
+        public static final int support_simple_spinner_dropdown_item=0x7f040019;
     }
     public static final class menu {
         public static final int menu_data_viewer=0x7f0d0000;
         public static final int menu_main=0x7f0d0001;
+        public static final int menu_practice_game=0x7f0d0002;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
     }
     public static final class string {
-        public static final int abc_action_bar_home_description=0x7f0b0000;
-        public static final int abc_action_bar_home_description_format=0x7f0b0001;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f0b0002;
-        public static final int abc_action_bar_up_description=0x7f0b0003;
-        public static final int abc_action_menu_overflow_description=0x7f0b0004;
-        public static final int abc_action_mode_done=0x7f0b0005;
-        public static final int abc_activity_chooser_view_see_all=0x7f0b0006;
-        public static final int abc_activitychooserview_choose_application=0x7f0b0007;
-        public static final int abc_searchview_description_clear=0x7f0b0008;
-        public static final int abc_searchview_description_query=0x7f0b0009;
-        public static final int abc_searchview_description_search=0x7f0b000a;
-        public static final int abc_searchview_description_submit=0x7f0b000b;
-        public static final int abc_searchview_description_voice=0x7f0b000c;
-        public static final int abc_shareactionprovider_share_with=0x7f0b000d;
-        public static final int abc_shareactionprovider_share_with_application=0x7f0b000e;
-        public static final int abc_toolbar_collapse_description=0x7f0b000f;
-        public static final int action_settings=0x7f0b0010;
-        public static final int app_name=0x7f0b0011;
-        public static final int connect=0x7f0b0012;
-        public static final int hello_world=0x7f0b0013;
-        public static final int title_activity_data_viewer=0x7f0b0014;
+        public static final int Practice=0x7f0b0000;
+        public static final int abc_action_bar_home_description=0x7f0b0001;
+        public static final int abc_action_bar_home_description_format=0x7f0b0002;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f0b0003;
+        public static final int abc_action_bar_up_description=0x7f0b0004;
+        public static final int abc_action_menu_overflow_description=0x7f0b0005;
+        public static final int abc_action_mode_done=0x7f0b0006;
+        public static final int abc_activity_chooser_view_see_all=0x7f0b0007;
+        public static final int abc_activitychooserview_choose_application=0x7f0b0008;
+        public static final int abc_searchview_description_clear=0x7f0b0009;
+        public static final int abc_searchview_description_query=0x7f0b000a;
+        public static final int abc_searchview_description_search=0x7f0b000b;
+        public static final int abc_searchview_description_submit=0x7f0b000c;
+        public static final int abc_searchview_description_voice=0x7f0b000d;
+        public static final int abc_shareactionprovider_share_with=0x7f0b000e;
+        public static final int abc_shareactionprovider_share_with_application=0x7f0b000f;
+        public static final int abc_toolbar_collapse_description=0x7f0b0010;
+        public static final int action_settings=0x7f0b0011;
+        public static final int app_name=0x7f0b0012;
+        public static final int connect=0x7f0b0013;
+        public static final int hello_world=0x7f0b0014;
+        public static final int title_activity_data_viewer=0x7f0b0015;
+        public static final int title_activity_practice_game=0x7f0b0016;
     }
     public static final class style {
         /**  Customize your theme here. 
