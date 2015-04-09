@@ -30,6 +30,11 @@ public class PracticeGameActivity extends MainActivity {
 
             att = TGDevice.MSG_ATTENTION;
 
+            TextView a = (TextView)findViewById(R.id.textView1);
+            a.setText(String.valueOf(att));
+
+            TextView b = (TextView)findViewById(R.id.textView2);
+
             if(att <= 10)
             {
                 if(att <= 20 && att > 10)
@@ -52,22 +57,28 @@ public class PracticeGameActivity extends MainActivity {
                                                 {
                                                     if(att == 100)
                                                     {
-
+                                                        b.setText("YOU DID IT, Congratulation");
                                                     }
+                                                    b.setText("Work that mind, you can do it");
                                                 }
+                                                b.setText("You are so close");
                                             }
+                                            b.setText("Keep your mind on one thing");
                                         }
+                                        b.setText("You have come pretty far focus");
                                     }
+                                    b.setText("Now it's getting harder concentrate");
                                 }
+                                b.setText("Half way there champ");
                             }
+                            b.setText("I knew you could do it");
                         }
+                        b.setText("Concentrate you can do better");
                     }
+                    b.setText("Hold that attention");
                 }
+                b.setText("Good Start");
             }
-
-            TextView a = (TextView)findViewById(R.id.textView1);
-            a.setText(String.valueOf(att));
-
             customHandler.postDelayed(this, 1000);
         }
     };
