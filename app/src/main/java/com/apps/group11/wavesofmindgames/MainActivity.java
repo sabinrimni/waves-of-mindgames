@@ -84,6 +84,9 @@ public class MainActivity extends ActionBarActivity {
 
         Button practice = (Button)findViewById(R.id.practice1);
         practice.setVisibility(View.VISIBLE);
+
+        Button play=(Button)findViewById((R.id.ball1));
+        play.setVisibility(View.VISIBLE);
     }
 
     public void getAttention(Message msg)
