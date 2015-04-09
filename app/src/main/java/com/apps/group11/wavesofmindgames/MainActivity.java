@@ -146,13 +146,14 @@ public class MainActivity extends ActionBarActivity {
                     Log.v("HelloEEG", "PoorSignal: " + msg.arg1);
                 case TGDevice.MSG_ATTENTION:
                     Log.v("HelloEEG", "Attention: " + msg.arg1);
+                    deltaValue = msg.arg1;
                     break;
                 case TGDevice.MSG_RAW_DATA:
                     int rawValue = msg.arg1;
                     break;
                 case TGDevice.MSG_EEG_POWER:
                     TGEegPower ep = (TGEegPower)msg.obj;
-                    deltaValue = ep.delta;
+                    //deltaValue = ep.delta;
                     Log.v("HelloEEG", "Delta: " + ep.delta);
                     Log.v("HelloEEG", "Theta: " + ep.theta);
                     Log.v("HelloEEG", "Low Alpha: " + ep.lowAlpha);

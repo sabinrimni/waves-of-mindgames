@@ -4,6 +4,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import com.neurosky.thinkgear.TGDevice;
 
 
 public class PracticeGameActivity extends MainActivity {
@@ -12,6 +15,14 @@ public class PracticeGameActivity extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice_game);
+
+        int att;
+
+        att = TGDevice.MSG_ATTENTION;
+
+        TextView a = (TextView)findViewById(R.id.textView1);
+
+        a.setText(String.valueOf(att));
     }
 
 
