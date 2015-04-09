@@ -23,8 +23,8 @@
             android:label="@string/title_activity_data_viewer" >
         </activity>
         <activity
-            android:name="PracticeGame"
-            android:label="@string/Practice">
+            android:name=".PracticeGameActivity"
+            android:label="@string/title_activity_practice_game" >
         </activity>
     </application>
 
