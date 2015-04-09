@@ -5,25 +5,72 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.os.Handler;
 
 import com.neurosky.thinkgear.TGDevice;
 
 
 public class PracticeGameActivity extends MainActivity {
 
+    Handler customHandler = new Handler();
+    int att;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice_game);
 
-        int att;
-
-        att = TGDevice.MSG_ATTENTION;
-
-        TextView a = (TextView)findViewById(R.id.textView1);
-
-        a.setText(String.valueOf(att));
+        customHandler.postDelayed(updateAttention, 0);
     }
+
+    private Runnable updateAttention = new Runnable()
+    {
+        public void run()
+        {
+
+            att = TGDevice.MSG_ATTENTION;
+
+            if(att <= 10)
+            {
+                if(att <= 20 && att > 10)
+                {
+                    if(att <= 30 && att > 20)
+                    {
+                        if(att <= 40 && att > 30)
+                        {
+                            if(att <= 50 && att > 40 )
+                            {
+                                if(att <= 60 && att > 50)
+                                {
+                                    if(att <= 70 && att > 60)
+                                    {
+                                        if(att <= 80 && att > 70 )
+                                        {
+                                            if(att <= 90 && att > 80)
+                                            {
+                                                if(att <= 99 && att > 90)
+                                                {
+                                                    if(att == 100)
+                                                    {
+
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            TextView a = (TextView)findViewById(R.id.textView1);
+            a.setText(String.valueOf(att));
+
+            customHandler.postDelayed(this, 1000);
+        }
+    };
 
 
     @Override
