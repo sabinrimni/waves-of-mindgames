@@ -45,6 +45,17 @@ public class MainActivity extends ActionBarActivity {
                     }
                 }
         );
+
+        Button pract = (Button)findViewById(R.id.practice1);
+        pract.setOnClickListener(
+                new  Button.OnClickListener()
+                {
+                    public void onClick(View v)
+                    {
+                        startActivity(new Intent(MainActivity.this, PracticeGameActivity.class));
+                    }
+                }
+        );
     }
 
     public void showTexts()
@@ -70,6 +81,9 @@ public class MainActivity extends ActionBarActivity {
         highBeta.setVisibility(View.VISIBLE);
         lowGamma.setVisibility(View.VISIBLE);
         highGamma.setVisibility(View.VISIBLE);
+
+        Button practice = (Button)findViewById(R.id.practice1);
+        practice.setVisibility(View.VISIBLE);
     }
 
     public void getAttention(Message msg)
@@ -138,6 +152,7 @@ public class MainActivity extends ActionBarActivity {
                     break;
                 case TGDevice.MSG_EEG_POWER:
                     TGEegPower ep = (TGEegPower)msg.obj;
+                    deltaValue = ep.delta;
                     Log.v("HelloEEG", "Delta: " + ep.delta);
                     Log.v("HelloEEG", "Theta: " + ep.theta);
                     Log.v("HelloEEG", "Low Alpha: " + ep.lowAlpha);
