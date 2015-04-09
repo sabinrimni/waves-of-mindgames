@@ -17,12 +17,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.apps.group11.wavesofmindgames" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="4a2583ca-5b0c-4f19-8f33-755971b68953" name="Default" comment="OK">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/group11/wavesofmindgames/PracticeGameActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_practice_game.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_practice_game.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <list default="true" readonly="true" id="4a2583ca-5b0c-4f19-8f33-755971b68953" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/apps/group11/wavesofmindgames/PracticeGameActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/apps/group11/wavesofmindgames/PracticeGameActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WavesOfMindGames.iws" />
@@ -63,8 +59,8 @@
       <file leaf-file-name="PracticeGameActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/group11/wavesofmindgames/PracticeGameActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37362638" vertical-offset="0" max-vertical-offset="714">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -1327,6 +1323,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/apps/group11/wavesofmindgames/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_practice_game.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/apps/group11/wavesofmindgames/PracticeGameActivity.java" />
       </list>
     </option>
   </component>
@@ -1853,7 +1850,11 @@
       <created>1428570824964</created>
       <updated>1428570824964</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="OK">
+      <created>1428571725204</created>
+      <updated>1428571725204</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2301,8 +2302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/apps/group11/wavesofmindgames/PracticeGameActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.37362638" vertical-offset="0" max-vertical-offset="714">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
           <folding />
         </state>
       </provider>

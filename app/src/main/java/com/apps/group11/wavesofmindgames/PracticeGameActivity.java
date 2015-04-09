@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class PracticeGameActivity extends ActionBarActivity {
+public class PracticeGameActivity extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
